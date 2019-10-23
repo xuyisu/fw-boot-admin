@@ -63,7 +63,7 @@ server:
   port: 8762
 spring:
   application:
-    name: fwe-boot-admin
+    name: fw-boot-admin
   security:
     user:
       name: admin
