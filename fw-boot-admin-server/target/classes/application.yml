@@ -1,0 +1,22 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: fwe-boot-admin
+  security:
+    user:
+      name: admin
+      password: admin
+  boot:
+    admin:
+      ui:
+        title: ${spring.application.name}
+  #邮件配置开始
+      notify:
+        mail:
+          from: yisutest@163.com
+          to: 727517292@qq.com
+  mail:
+    host: smtp.163.com
+    username: yisutest@163.com
+    password: admin2018

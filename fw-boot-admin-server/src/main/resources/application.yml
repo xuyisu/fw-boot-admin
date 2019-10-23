@@ -1,0 +1,22 @@
+server:
+  port: 8762
+spring:
+  application:
+    name: fwe-boot-admin
+  security:
+    user:
+      name: admin
+      password: admin
+  boot:
+    admin:
+      ui:
+        title: ${spring.application.name}
+  #邮件配置开始
+      notify:
+        mail:
+          from: ------@163.com  #这个如果没有的话，发邮件会报错
+          to: -----@qq.com
+  mail:
+    host: smtp.163.com
+    username: -----@163.com
+    password: -----
